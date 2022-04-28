@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: billing-service-nyc
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:shbose-billing-service-nyc
+      - image: quay.io/redhat-appstudio/user-workload:shbose-billing-service-nyc-e01a6952f5ac7464d938bf5d704195c5ea81d4e8
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

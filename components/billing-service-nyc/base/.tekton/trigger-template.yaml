@@ -26,7 +26,7 @@ spec:
       - name: git-url
         value: https://github.com/sbose78/devfile-sample-code-with-quarkus
       - name: output-image
-        value: quay.io/redhat-appstudio/user-workload:shbose-billing-service-nyc-$(tt.params.git-revision)
+        value: quay.io/redhat-appstudio/user-workload:shbose-billing-service-nyc-e01a6952f5ac7464d938bf5d704195c5ea81d4e8-$(tt.params.git-revision)
       - name: dockerfile
         value: src/main/docker/Dockerfile.jvm.staged
       - name: path-context
