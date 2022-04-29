@@ -1,6 +1,6 @@
 namespace: shbose
 bases:
-- components/1-java-quarkus/base
+- components/x1-java-quarkus/base
 - components/basic-go/base
 - components/billing-service-nyc/base
 - components/map-service/base

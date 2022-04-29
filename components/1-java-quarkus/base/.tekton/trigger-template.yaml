@@ -2,7 +2,7 @@ apiVersion: triggers.tekton.dev/v1beta1
 kind: TriggerTemplate
 metadata:
   creationTimestamp: null
-  name: 1-java-quarkus 
+  name: x1-java-quarkus 
 spec:
   params:
   - name: git-revision
@@ -13,18 +13,18 @@ spec:
       annotations:
         build.appstudio.openshift.io/application: nyc-transit
         build.appstudio.openshift.io/build: "true"
-        build.appstudio.openshift.io/component: 1-java-quarkus
+        build.appstudio.openshift.io/component: x1-java-quarkus
         build.appstudio.openshift.io/type: build
         build.appstudio.openshift.io/version: "0.1"
         pipelines.appstudio.openshift.io/type: build
       creationTimestamp: null
-      generateName: 1-java-quarkus- 
+      generateName: x1-java-quarkus- 
     spec:
       params:
       - name: git-url
         value: https://github.com/sbose78/devfile-sample-code-with-quarkus
       - name: output-image
-        value: quay.io/redhat-appstudio/user-workload:shbose-1-java-quarkus-$(tt.params.git-revision)
+        value: quay.io/redhat-appstudio/user-workload:shbose-x1-java-quarkus-$(tt.params.git-revision)
       - name: dockerfile
         value: src/main/docker/Dockerfile.jvm.staged
       - name: path-context
@@ -36,7 +36,7 @@ spec:
       - name: workspace
         persistentVolumeClaim:
           claimName: appstudio
-        subPath: 1-java-quarkus/$(tt.params.git-revision)
+        subPath: x1-java-quarkus/$(tt.params.git-revision)
       - name: registry-auth
         secret:
           secretName: redhat-appstudio-registry-pull-secret

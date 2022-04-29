@@ -4,25 +4,25 @@ metadata:
   creationTimestamp: null
   labels:
     app.kubernetes.io/created-by: application-service
-    app.kubernetes.io/instance: 1-java-quarkus
+    app.kubernetes.io/instance: x1-java-quarkus
     app.kubernetes.io/managed-by: kustomize
-    app.kubernetes.io/name: 1-java-quarkus
+    app.kubernetes.io/name: x1-java-quarkus
     app.kubernetes.io/part-of: nyc-transit
-  name: 1-java-quarkus 
+  name: x1-java-quarkus 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/instance: 1-java-quarkus
+      app.kubernetes.io/instance: x1-java-quarkus
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app.kubernetes.io/instance: 1-java-quarkus
+        app.kubernetes.io/instance: x1-java-quarkus
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:shbose-1-java-quarkus
+      - image: quay.io/redhat-appstudio/user-workload:shbose-x1-java-quarkus
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

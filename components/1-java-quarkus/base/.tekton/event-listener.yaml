@@ -4,12 +4,12 @@ metadata:
   annotations:
     build.appstudio.openshift.io/application: nyc-transit
     build.appstudio.openshift.io/build: "true"
-    build.appstudio.openshift.io/component: 1-java-quarkus
+    build.appstudio.openshift.io/component: x1-java-quarkus
     build.appstudio.openshift.io/type: build
     build.appstudio.openshift.io/version: "0.1"
     pipelines.appstudio.openshift.io/type: build
   creationTimestamp: null
-  name: 1-java-quarkus 
+  name: x1-java-quarkus 
 spec:
   namespaceSelector: {}
   resources: {}
@@ -19,4 +19,4 @@ spec:
     - kind: ClusterTriggerBinding
       ref: github-push
     template:
-      ref: 1-java-quarkus
+      ref: x1-java-quarkus

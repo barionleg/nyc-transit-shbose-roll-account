@@ -4,17 +4,17 @@ metadata:
   annotations:
     build.appstudio.openshift.io/application: nyc-transit
     build.appstudio.openshift.io/build: "true"
-    build.appstudio.openshift.io/component: 1-java-quarkus
+    build.appstudio.openshift.io/component: x1-java-quarkus
     build.appstudio.openshift.io/type: build
     build.appstudio.openshift.io/version: "0.1"
     pipelines.appstudio.openshift.io/type: build
   creationTimestamp: null
-  name: el1-java-quarkus 
+  name: elx1-java-quarkus 
 spec:
   path: /
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: el-1-java-quarkus
+    name: el-x1-java-quarkus
     weight: null 
