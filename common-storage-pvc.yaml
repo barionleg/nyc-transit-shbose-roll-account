@@ -16,5 +16,4 @@ spec:
   resources:
     requests:
       storage: 10Mi
-  volumeMode: Filesystem
-status: {}
+  volumeMode: Filesystem 

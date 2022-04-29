@@ -41,5 +41,4 @@ spec:
         resources:
           requests:
             cpu: 180m
-            memory: 180Mi
-status: {}
+            memory: 180Mi 

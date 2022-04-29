@@ -18,5 +18,4 @@ spec:
   to:
     kind: Service
     name: 1-java-quarkus
-    weight: 100
-status: {}
+    weight: 100 
