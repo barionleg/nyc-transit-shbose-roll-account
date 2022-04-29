@@ -2,8 +2,7 @@ apiVersion: triggers.tekton.dev/v1beta1
 kind: TriggerTemplate
 metadata:
   creationTimestamp: null
-  name: billing-service-nyc
-  namespace: shbose
+  name: billing-service-nyc 
 spec:
   params:
   - name: git-revision
@@ -19,8 +18,7 @@ spec:
         build.appstudio.openshift.io/version: "0.1"
         pipelines.appstudio.openshift.io/type: build
       creationTimestamp: null
-      generateName: billing-service-nyc-
-      namespace: shbose
+      generateName: billing-service-nyc- 
     spec:
       params:
       - name: git-url

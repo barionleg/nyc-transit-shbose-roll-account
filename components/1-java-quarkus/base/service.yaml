@@ -8,8 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: 1-java-quarkus
     app.kubernetes.io/part-of: nyc-transit
-  name: 1-java-quarkus
-  namespace: shbose
+  name: 1-java-quarkus 
 spec:
   ports:
   - port: 8081

@@ -2,8 +2,7 @@ apiVersion: triggers.tekton.dev/v1beta1
 kind: TriggerTemplate
 metadata:
   creationTimestamp: null
-  name: basic-go
-  namespace: shbose
+  name: basic-go 
 spec:
   params:
   - name: git-revision
@@ -19,8 +18,7 @@ spec:
         build.appstudio.openshift.io/version: "0.1"
         pipelines.appstudio.openshift.io/type: build
       creationTimestamp: null
-      generateName: basic-go-
-      namespace: shbose
+      generateName: basic-go- 
     spec:
       params:
       - name: git-url

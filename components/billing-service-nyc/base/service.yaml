@@ -8,8 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: billing-service-nyc
     app.kubernetes.io/part-of: nyc-transit
-  name: billing-service-nyc
-  namespace: shbose
+  name: billing-service-nyc 
 spec:
   ports:
   - port: 8081

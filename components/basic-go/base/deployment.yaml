@@ -8,8 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: basic-go
     app.kubernetes.io/part-of: nyc-transit
-  name: basic-go
-  namespace: shbose
+  name: basic-go 
 spec:
   replicas: 1
   selector:

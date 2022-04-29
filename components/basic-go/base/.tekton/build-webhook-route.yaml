@@ -9,8 +9,7 @@ metadata:
     build.appstudio.openshift.io/version: "0.1"
     pipelines.appstudio.openshift.io/type: build
   creationTimestamp: null
-  name: elbasic-go
-  namespace: shbose
+  name: elbasic-go 
 spec:
   path: /
   port:

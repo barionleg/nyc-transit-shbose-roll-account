@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: map-service
     app.kubernetes.io/part-of: nyc-transit
   name: map-service
-  namespace: shbose
 spec:
   ports:
   - port: 8080

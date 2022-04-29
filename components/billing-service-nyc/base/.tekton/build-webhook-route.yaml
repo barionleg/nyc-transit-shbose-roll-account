@@ -10,7 +10,6 @@ metadata:
     pipelines.appstudio.openshift.io/type: build
   creationTimestamp: null
   name: elbilling-service-nyc
-  namespace: shbose
 spec:
   path: /
   port:
