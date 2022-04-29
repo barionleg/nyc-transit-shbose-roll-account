@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: x1-java-quarkus
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:shbose-x1-java-quarkus
+      - image: quay.io/redhat-appstudio/user-workload:shbose-1-java-quarkus
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
