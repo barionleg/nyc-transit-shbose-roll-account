@@ -20,6 +20,3 @@ spec:
       ref: github-push
     template:
       ref: billing-service-nyc
-status:
-  configuration:
-    generatedName: ""

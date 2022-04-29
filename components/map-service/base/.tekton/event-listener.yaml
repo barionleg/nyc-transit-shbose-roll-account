@@ -20,6 +20,3 @@ spec:
       ref: github-push
     template:
       ref: map-service
-status:
-  configuration:
-    generatedName: ""

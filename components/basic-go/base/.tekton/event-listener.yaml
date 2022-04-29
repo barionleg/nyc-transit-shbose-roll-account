@@ -20,6 +20,3 @@ spec:
       ref: github-push
     template:
       ref: basic-go
-status:
-  configuration:
-    generatedName: ""
