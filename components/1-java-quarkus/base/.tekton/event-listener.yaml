@@ -20,6 +20,3 @@ spec:
       ref: github-push
     template:
       ref: 1-java-quarkus
-status:
-  configuration:
-    generatedName: ""
